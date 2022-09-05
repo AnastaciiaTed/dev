@@ -1,0 +1,289 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+
+}
+
+.maine_page {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo_text {
+    margin-left: 18px;
+}
+
+.banderogus_title {
+    color: #26242B; 
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    
+}
+
+.banderogus-container {
+    background: #ffff;
+    padding: 60px 56px;
+    align-self: center;
+}
+
+.banderogus_greeting {
+    color: #26242B;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banderogus_start_paige {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+
+.banderogus_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #26242B;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus_launch{
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFEFF;
+    cursor: pointer;
+}
+
+.maine_page_row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogus_img {
+    align-self: flex-end;
+}
+
+.gus_facts {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gus_title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #26242B;
+    margin: 16px 0;
+    }
+
+.gus_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #26242B;
+    width: 875px;
+}
+
+.gus_facts_container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gus_facts_item {
+    width: 33%;
+}
+
+.gus_fact_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #26242B;
+    margin: 12px 0 32px 0;
+}
+
+.gus_fact_descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #26242B;
+    width: 280px;
+}
+
+.victory_bgd {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 97.76%);
+    width: 1170px;
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_victory {
+    display: flex;
+    justify-content: center;
+}
+
+.victory_title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    margin: 16px 0;
+    color: #26242B;
+}
+
+.victory_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #26242B;
+    width: 865px;
+    text-align: center;
+}
+
+.modal_bgd {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgb(27 29 31 / 70%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease-in-out;
+}
+
+.modal_form {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+
+.modal_form_container {
+    background: #FCFEFF;
+    padding: 32px 92px 60px 92px;
+    position: relative;
+}
+
+.modal_form_title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin: 32px 0 12px 0;
+
+}
+
+.modal_form_dscr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 24px;
+}
+
+.modal_form_field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+}
+
+.modal_field_name {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #000000
+}
+
+
+.modal_field_input {
+        background: #FFFFFF;
+        border: 1px solid #005BBB;
+        border-radius: 8px;
+        height: 48px;
+        box-sizing: border-box;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        padding: 4px 8px;
+
+    }
+.modal-form-btn {
+        background: #FF6B0A;
+        border-radius: 8px;
+        padding: 12px 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FCFEFF;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        margin-top: 24px;
+}
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: #26242B;
+    cursor: pointer;
+    border: 0;
+    background: none;
+
+}
+
+.modal_descr {
+    margin-bottom: 0;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
